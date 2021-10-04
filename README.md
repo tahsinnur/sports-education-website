@@ -1,6 +1,6 @@
 # PLAYCAVE A React App
 
-This project created by Tahsin Nur [PLAYCAVE APP](https://showmaker-spa-react.netlify.app/).
+This project created by Tahsin Nur [PLAYCAVE APP](https://educational-website-with-react-router.netlify.app/).
 
 ## Features
 
