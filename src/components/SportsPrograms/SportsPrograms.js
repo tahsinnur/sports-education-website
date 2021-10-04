@@ -12,10 +12,13 @@ const SportsPrograms = () => {
 
     return (
         <div className="container text-center">
-            <h2 className="pt-5 pb-2">OUR SPORTS PROGRAMS</h2>
+            <h2 className="pt-5 pb-2 fw-bold">OUR SPORTS PROGRAMS</h2>
             <div className="row row-cols-1 row-cols-md-4 g-4 pb-3">
                 {
-                    sportsPrograms.map(program => <ProgramsCard program={program}></ProgramsCard>)
+                    sportsPrograms.map(program => <ProgramsCard 
+                        key={program._id}
+                        program={program}
+                    ></ProgramsCard>)
                 }
             </div>
         </div>

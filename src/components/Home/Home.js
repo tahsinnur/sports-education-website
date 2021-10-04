@@ -16,7 +16,7 @@ const Home = () => {
                         <img
                             className="d-block w-100"
                             style={{height:"700px"}}
-                            src={img1}
+                            src={img4}
                             alt="First slide"
                         />
                         <Carousel.Caption>
@@ -54,7 +54,7 @@ const Home = () => {
                         <img
                             className="d-block w-100"
                             style={{height:"700px"}}
-                            src={img4}
+                            src={img1}
                             alt="Third slide"
                         />
 

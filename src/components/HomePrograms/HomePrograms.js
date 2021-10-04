@@ -18,10 +18,13 @@ const HomePrograms = () => {
 
     return (
         <div className="container">
-            <h2 className="text-center pt-5 pb-2">Featured Programs</h2>
+            <h2 className="text-center pt-5 pb-2 fw-bold">OUR FEATURED PROGRAMS</h2>
             <div className="row row-cols-1 row-cols-md-4 g-4 pb-3">
             {
-                sportsPrograms.map(program => <ProgramsCard program={program}></ProgramsCard>)
+                sportsPrograms.map(program => <ProgramsCard 
+                    key={program._id}
+                    program={program}
+                ></ProgramsCard>)
             }
             </div>
             <div className="text-center pb-3">

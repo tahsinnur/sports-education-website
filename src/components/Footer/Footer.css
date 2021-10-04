@@ -1,0 +1,6 @@
+.social-icon ul li{
+    display: inline;
+    list-style: none;
+    margin-left: 15px;
+    font-size: 20px;
+}
