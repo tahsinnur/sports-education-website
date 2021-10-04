@@ -1,10 +1,11 @@
 import React from 'react';
+import './ProgramsCard.css';
 
 const ProgramsCard = (props) => {
     const {name, img, coach, duration, price} = props.program;
     return (
             <div className="col">
-                <div className="card h-100">
+                <div className="card h-100 programs-card">
                     <img style={{height:"300px", padding: "20px"}} src={img} className="card-img-top" alt="" />
                     <div className="card-body">
                         <h5 className="card-title">{name}</h5>

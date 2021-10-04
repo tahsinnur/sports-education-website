@@ -1,0 +1,10 @@
+.programs-card{
+    background-color:snow;
+    transition: 0.5s;
+}
+.programs-card:hover{
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px lightgray;
+    transform: scale(1.01);
+    transition: 0.5s;
+}
