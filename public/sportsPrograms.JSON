@@ -1,0 +1,66 @@
+[
+    {
+      "_id": "615aff0dfee1580605546675",
+      "name": "Cricket",
+      "coach": "Mohammad Ashraful",
+      "duration": 2,
+      "price": 75000,
+      "img": "https://www.cricketvictoria.com.au/wp-content/uploads/2019/11/SkillsCoaching_570-570x370.jpg"
+    },
+    {
+      "_id": "615aff0d4f9effbcf166e2e2",
+      "name": "Football",
+      "coach": "Ronaldo",
+      "duration": 2,
+      "price": 97000,
+      "img": "https://www.coachbetter.com/wp-content/uploads/2020/10/Football-Coaching0.jpg"
+    },
+    {
+      "_id": "615aff0dfeecb75e17a415d9",
+      "name": "Swimming",
+      "coach": "M.Phillips",
+      "duration": 2,
+      "price": 57000,
+      "img": "https://thumbs.dreamstime.com/b/swimming-instructor-coaching-kids-pool-side-singapore-jul-swimming-instructor-coaching-kids-pool-side-126016507.jpg"
+    },
+    {
+      "_id": "615aff0d2eb7c388511c0ee3",
+      "name": "Tennis",
+      "coach": "Roger Federer",
+      "duration": 2,
+      "price": 62000,
+      "img": "https://rosieclarktenniscoaching.co.uk/wp-content/uploads/2017/05/rosie-clark-tennis-coaching-term-time-coaching.jpg"
+    },
+    {
+        "_id": "615b017e92216d41c02a7dc8",
+        "name": "Basketball",
+        "coach": "Michael Jordan",
+        "duration": 3,
+        "price": 120000,
+        "img": "https://i.shgcdn.com/fd817009-9ef6-47e0-a38c-e9851f84d13c/-/format/auto/-/preview/3000x3000/-/quality/lighter/"
+      },
+      {
+        "_id": "615b017ed031d5d155a48fcf",
+        "name": "Volleyball",
+        "coach": "Yuji Nishida",
+        "duration": 2,
+        "price": 82000,
+        "img": "https://www.worldparavolley.org/wp-content/uploads/2019/06/Sitting-Volleyball-coach.jpg"
+      },
+      {
+        "_id": "615b017e4c353760a98f2ea0",
+        "name": "Hockey",
+        "coach": "Connor McDavid",
+        "duration": 2,
+        "price": 75000,
+        "img": "https://vtcynic.com/wp-content/uploads/2020/04/JK0_5276.jpg"
+      },
+      {
+        "_id": "615b017e3ede3fb97b63a3a7",
+        "name": "Gymnastics",
+        "coach": "Nikolai Andrianov",
+        "duration": 2,
+        "price": 83000,
+        "img": "https://gymnasticscoaching.files.wordpress.com/2019/09/women-coaching-mag.jpg"
+      }
+  ]

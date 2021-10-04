@@ -1,0 +1,7 @@
+.menu-item{
+    text-decoration: none;
+    color: white;
+}
+.menu-item:hover{
+    color: #ff9b51;
+}
