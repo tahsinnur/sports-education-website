@@ -6,22 +6,22 @@ const HomePrograms = () => {
     const [sportsPrograms, setSportsPrograms] = useState([]);
 
     useEffect( () => {
-        fetch("/sportsProgramShort.JSON")
+        fetch("/sportsPrograms.JSON")
         .then(res => res.json())
         .then(data => setSportsPrograms(data))
     } , [])
 
-    let history = useHistory();
+    const history = useHistory();
     const handleLoadMoreBtn = () =>{
         history.push("/sportsprograms");
     }
 
     return (
-        <div className="container">
-            <h2 className="text-center pt-5 pb-2 fw-bold">OUR FEATURED PROGRAMS</h2>
+        <div className="container text-center">
+            <h2 className="text-center pt-5 pb-4 fw-bold">OUR FEATURED PROGRAMS</h2>
             <div className="row row-cols-1 row-cols-md-4 g-4 pb-3">
             {
-                sportsPrograms.map(program => <ProgramsCard 
+                sportsPrograms.slice(0,4).map(program => <ProgramsCard 
                     key={program._id}
                     program={program}
                 ></ProgramsCard>)

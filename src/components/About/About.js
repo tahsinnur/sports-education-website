@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const About = () => {
     return (
         <div className="container text-center">
-            <h2 className="pt-5 pb-2 fw-bold">ABOUT US</h2>
+            <h2 className="pt-5 pb-4 fw-bold">ABOUT US</h2>
             <p>The Sports School is Bangladesh's First Integrated School for Sports and Academics, providing budding and professional athletes a platform to pursue sporting excellence by providing them with world-class facilities and training by expert coaches and world-renowned mentors for Tennis, Cricket, Badminton, Football and Basketball. <Link style={{textDecoration:"none", color:"#ff9b51", fontWeight:"600"}} to="/sportsprograms">Click Here To Learn More About Our Programs</Link>
             <br />
             <br />

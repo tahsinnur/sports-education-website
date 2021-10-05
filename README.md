@@ -1,6 +1,6 @@
-# PLAYCAVE A React App
+# SILVER LINING A React App
 
-This project created by Tahsin Nur [PLAYCAVE APP](https://educational-website-with-react-router.netlify.app/).
+This project created by Tahsin Nur [SILVER LINING APP](https://educational-website-with-react-router.netlify.app/).
 
 ## Features
 

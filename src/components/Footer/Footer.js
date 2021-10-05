@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
     return (
-        <Container fluid className="bg-black text-white text-center footer py-5">
-            <h1 className="fw-bold">PLAY<span style={{ color: "#ff9b51" }}>CAVE</span> SPORTS ACADEMY</h1>
+        <Container fluid className="bg-black text-white text-center footer py-5 mt-4">
+            <h1 className="fw-bold">SILVER <span style={{ color: "#ff9b51" }}>LINING</span> SPORTS ACADEMY</h1>
             <div className="social-icon">
                 <ul>
                     <li><Link style={{color:"white"}} to="/"><i className="fab fa-facebook-f"></i></Link></li>

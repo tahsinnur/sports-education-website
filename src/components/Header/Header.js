@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <Navbar className="py-3 bg-black" expand="lg">
             <Container>
-                <NavLink to="/home" className="fw-bold fs-3 text-white menu-item">PLAY<span style={{color:"#ff9b51"}}>CAVE</span></NavLink>
+                <NavLink to="/home" className="fw-bold fs-3 text-white menu-item">SILVER <span style={{color:"#ff9b51"}}>LINING</span></NavLink>
                 <Navbar.Toggle aria-controls="navbarScroll" />
                 <Navbar.Collapse id="navbarScroll">
                     <Nav
@@ -15,7 +15,7 @@ const Header = () => {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Stack direction="horizontal" gap={3}>
+                        <Stack direction="horizontal" gap={4}>
                             <NavLink
                                 to="/home"
                                 activeStyle={{

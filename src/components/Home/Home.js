@@ -15,19 +15,19 @@ const Home = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            style={{height:"700px"}}
+                            style={{height:"800px"}}
                             src={img4}
                             alt="First slide"
                         />
                         <Carousel.Caption>
-                            <h1 className="fw-bold">PLAY<span style={{color:"#ff9b51"}}>CAVE</span> SPORTS ACADEMY</h1>
+                            <h1 className="fw-bold">SILVER <span style={{color:"#ff9b51"}}>LINING</span> SPORTS ACADEMY</h1>
                             <p className="fs-4">Pursue your Sporting Dreams without Compromising on Academics, with our Team of World-Class Sports Mentors and Coaches and a Flexible Academic Curriculum</p>
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            style={{height:"700px"}}
+                            style={{height:"800px"}}
                             src={img2}
                             alt="Second slide"
                         />
@@ -40,7 +40,7 @@ const Home = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            style={{height:"700px"}}
+                            style={{height:"800px"}}
                             src={img3}
                             alt="Third slide"
                         />
@@ -53,7 +53,7 @@ const Home = () => {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            style={{height:"700px"}}
+                            style={{height:"800px"}}
                             src={img1}
                             alt="Third slide"
                         />
