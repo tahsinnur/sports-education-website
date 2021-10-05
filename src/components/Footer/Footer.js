@@ -16,7 +16,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div>
-                <p className="text-center"><small><i class="far fa-copyright"></i> 2021 PLAYCAVE BD, Inc. All Rights reserved</small></p>
+                <p className="text-center"><small><i class="far fa-copyright"></i> 2021 SILVER LINING BD, Inc. All Rights reserved</small></p>
             </div>
         </Container>
     );
